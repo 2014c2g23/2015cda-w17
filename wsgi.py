@@ -726,7 +726,7 @@ class Hello(object):
     #@+node:amd.20150415215023.1: *3* mygeartest2
     @cherrypy.expose
     # N 為齒數, M 為模數, P 為壓力角
-    def mygeartest2(self, N=20, m=None, p=None,z=None,x=None,c=None,v=None,o=None,l=None):
+    def mygeartest2(self, N=20, m=10, p=5,z=15,x=24,c=None,v=None,o=None,l=None):
         outstring = '''
     <!DOCTYPE html> 
     <html>
